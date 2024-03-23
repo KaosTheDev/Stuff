@@ -750,17 +750,7 @@ function library:Introduction()
     barLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
     barLayout.SortOrder = Enum.SortOrder.LayoutOrder
     
-    xsxLogo.Name = "xsxLogo"
-    xsxLogo.Parent = background
-    xsxLogo.AnchorPoint = Vector2.new(0.5, 0.5)
-    xsxLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    xsxLogo.BackgroundTransparency = 1.000
-    xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
-    xsxLogo.Size = UDim2.new(0, 150, 0, 150)
-    xsxLogo.Visible = true
-    xsxLogo.Image = "rbxassetid://16840536532"
-    xsxLogo.ImageColor3 = Color3.fromRGB(255,0,0)
-    xsxLogo.ImageTransparency = 1
+
     
     hashLogo.Name = "hashLogo"
     hashLogo.Parent = background
@@ -821,10 +811,6 @@ function library:Introduction()
     TweenService:Create(xsx, TweenTable["introduction"], {TextTransparency = 0}):Play()
     TweenService:Create(text, TweenTable["introduction"], {TextTransparency = 0}):Play()
     wait(.3)
-    TweenService:Create(xsxLogo, TweenTable["introduction"], {ImageTransparency = 0}):Play()
-    wait(2)
-    TweenService:Create(xsxLogo, TweenTable["introduction"], {ImageTransparency = 1}):Play()
-    wait(.2)
     TweenService:Create(hashLogo, TweenTable["introduction"], {ImageTransparency = 0}):Play()
     wait(2)
     TweenService:Create(hashLogo, TweenTable["introduction"], {ImageTransparency = 1}):Play()
