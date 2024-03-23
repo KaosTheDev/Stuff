@@ -758,7 +758,7 @@ function library:Introduction()
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
-    xsxLogo.Image = "http://www.roblox.com/asset/?id=9365068051"
+    xsxLogo.Image = "http://www.roblox.com/asset/?id=2420004236"
     xsxLogo.ImageColor3 = Color3.fromRGB(255,0,0)
     xsxLogo.ImageTransparency = 1
     
