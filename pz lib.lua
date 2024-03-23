@@ -758,7 +758,7 @@ function library:Introduction()
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
-    xsxLogo.Image = "rbxassetid://2420004236"
+    xsxLogo.Image = "rbxassetid://15347868435"
     xsxLogo.ImageColor3 = Color3.fromRGB(255,0,0)
     xsxLogo.ImageTransparency = 1
     
@@ -770,7 +770,7 @@ function library:Introduction()
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     hashLogo.Size = UDim2.new(0, 150, 0, 150)
     hashLogo.Visible = true
-    hashLogo.Image = "rbxassetid://2420004236"
+    hashLogo.Image = "http://www.roblox.com/asset/?id=2420004236"
     hashLogo.ImageColor3 = Color3.fromRGB(255,0,0)
     hashLogo.ImageTransparency = 1
     
@@ -1055,10 +1055,10 @@ function library:Init(key)
         page.BackgroundTransparency = 1.000
         page.BorderSizePixel = 0
         page.Size = UDim2.new(0, 412, 0, 358)
-        page.BottomImage = "rbxassetid://2420004236"
-        page.MidImage = "rbxassetid://2420004236"
+        page.BottomImage = "http://www.roblox.com/asset/?id=3062506202"
+        page.MidImage = "http://www.roblox.com/asset/?id=3062506202"
         page.ScrollBarThickness = 1
-        page.TopImage = "rbxassetid://2420004236"
+        page.TopImage = "http://www.roblox.com/asset/?id=3062506202"
         page.ScrollBarImageColor3 = Color3.fromRGB(255,0,0)
         page.Visible = false
         
