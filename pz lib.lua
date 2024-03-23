@@ -1626,7 +1626,7 @@ function library:Init(key)
             toggleDesignCorner.Name = "toggleDesignCorner"
             toggleDesignCorner.Parent = toggleDesign
 
-            toggleDesignGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(157, 115, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(106, 69, 181))}
+            toggleDesignGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(190, 0, 0))}
             toggleDesignGradient.Rotation = 90
             toggleDesignGradient.Name = "toggleDesignGradient"
             toggleDesignGradient.Parent = toggleDesign
