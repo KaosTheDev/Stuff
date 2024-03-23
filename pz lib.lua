@@ -796,12 +796,7 @@ function library:Introduction()
 
     CreateTween("xsxRotation", 0)
     local MinusAmount = -16
-    coroutine.wrap(function()
-        while wait() do
-            MinusAmount = MinusAmount + 0.4
-            TweenService:Create(xsxLogo, TweenTable["xsxRotation"], {Rotation = xsxLogo.Rotation - MinusAmount}):Play()
-        end
-    end)()
+
 
     TweenService:Create(edge, TweenTable["introduction"], {BackgroundTransparency = 0}):Play()
     TweenService:Create(background, TweenTable["introduction"], {BackgroundTransparency = 0}):Play()
