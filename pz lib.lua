@@ -758,7 +758,7 @@ function library:Introduction()
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
-    xsxLogo.Image = "rbxassetid://15347868435"
+    xsxLogo.Image = "rbxassetid://2420004236"
     xsxLogo.ImageColor3 = Color3.fromRGB(255,0,0)
     xsxLogo.ImageTransparency = 1
     
@@ -770,7 +770,7 @@ function library:Introduction()
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     hashLogo.Size = UDim2.new(0, 150, 0, 150)
     hashLogo.Visible = true
-    hashLogo.Image = "http://www.roblox.com/asset/?id=2420004236"
+    hashLogo.Image = "rbxassetid://2420004236"
     hashLogo.ImageColor3 = Color3.fromRGB(255,0,0)
     hashLogo.ImageTransparency = 1
     
